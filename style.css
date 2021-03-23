@@ -62,7 +62,7 @@ footer {
     text-align: center;
     line-height: 5vh;
 } */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 1024px) {
     .bg {
         background-image: url(./images/bg4.jpg);
         background-size: cover;
