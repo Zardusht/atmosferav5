@@ -92,7 +92,7 @@ footer {
         height: calc(var(--vh, 1vh) * 15);
     }
     .contacts {
-        height: calc(var(--vh, 1vh) * 80);
+        height: 80vh;
         
         display: flex;
         flex-direction: column;
@@ -102,6 +102,6 @@ footer {
     footer {
         text-align: center;
         line-height: 5vh;
-        height: calc(var(--vh, 1vh) * 5);
+        height: 5vh;
     }
 }
