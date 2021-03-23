@@ -1,0 +1,107 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*font-size: 100%;
+    vertical-align: baseline;*/
+    
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+html {
+    background-color: #fddbd1;
+    font-family: 'Montserrat', sans-serif;
+}
+/* .bg {
+    background-image: url(./images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    min-height: 48%;
+}
+.element {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    color: #006354;
+}
+a {
+    text-decoration: none;
+}
+.bg svg {
+    height: 30px;
+}
+.welcome {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+.welcome svg {
+    height: 15vh;
+}
+.contacts {
+    height: 80vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    line-height: 5vh;
+} */
+@media only screen and (max-width: 414px) {
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: calc(var(--vh, 1vh) * 85);
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: calc(var(--vh, 1vh) * 15);
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: calc(var(--vh, 1vh) * 15);
+    }
+    .contacts {
+        height: calc(var(--vh, 1vh) * 80);
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        height: calc(var(--vh, 1vh) * 5);
+    }
+}
