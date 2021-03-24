@@ -255,3 +255,495 @@ footer {
         font-size: 1.2rem;
     } 
 }
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2)
+   {
+    html {
+        background-color: #fddbd1;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: 15vh;
+    }
+    .contacts {
+        height: 80vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text-area {
+        font-size: 1.8vh;
+        max-width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+        margin: 0 auto;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        font-size: 1.2rem;
+    } 
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+        background-color: #fddbd1;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: 15vh;
+    }
+    .contacts {
+        height: 80vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text-area {
+        font-size: 1.8vh;
+        max-width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+        margin: 0 auto;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        font-size: 1.2rem;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+        background-color: #fddbd1;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: 15vh;
+    }
+    .contacts {
+        height: 80vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text-area {
+        font-size: 1.8vh;
+        max-width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+        margin: 0 auto;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        font-size: 1.2rem;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        background-color: #fddbd1;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: 15vh;
+    }
+    .contacts {
+        height: 80vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text-area {
+        font-size: 1.8vh;
+        max-width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+        margin: 0 auto;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        font-size: 1.2rem;
+    }
+}
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        background-color: #fddbd1;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: 15vh;
+    }
+    .contacts {
+        height: 80vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text-area {
+        font-size: 1.8vh;
+        max-width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+        margin: 0 auto;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        font-size: 1.2rem;
+    }
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    html {
+        background-color: #fddbd1;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: 15vh;
+    }
+    .contacts {
+        height: 80vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text-area {
+        font-size: 1.8vh;
+        max-width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+        margin: 0 auto;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        font-size: 1.2rem;
+    }
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    html {
+        background-color: #fddbd1;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: 15vh;
+    }
+    .contacts {
+        height: 80vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text-area {
+        font-size: 1.8vh;
+        max-width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+        margin: 0 auto;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        font-size: 1.2rem;
+    }
+}
