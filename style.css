@@ -58,6 +58,27 @@ a {
     justify-content: space-evenly;
     text-align: center;
 }
+.text-area {
+    font-size: 2.5vh;
+    max-width: 800px;
+    padding: 5px;
+    box-sizing: border-box;
+    line-height: 3.5vh;
+    margin: 0 auto;
+}
+h1,
+.icons,
+.number,
+.icons {
+    font-size: 4vh;
+}
+.icons a,
+.number a {
+    color: black;
+}
+.icons {
+    word-spacing: 40px;
+}
 footer {
     text-align: center;
     line-height: 5vh;
@@ -153,5 +174,11 @@ footer {
     }
     .welcome {
         height: calc(var(--vh, 1vh) * 15);
+    }
+    .contacts {
+        height: calc(var(--vh, 1vh) * 80);
+    }
+    footer {
+        height: calc(var(--vh, 1vh) * 5);
     }
 }
