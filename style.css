@@ -18,7 +18,7 @@ table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cells
 textarea {overflow:auto;}
 /***** RESET *****/
 
-html {
+/* html {
     background-color: #fddbd1;
     font-family: 'Montserrat', sans-serif;
 }
@@ -60,7 +60,7 @@ a {
 }
 .text-area {
     font-size: 2.5vh;
-    max-width: 1100px;
+    max-width: 800px;
     padding: 5px;
     box-sizing: border-box;
     line-height: 3.5vh;
@@ -82,8 +82,9 @@ h1,
 footer {
     text-align: center;
     line-height: 5vh;
-}
-@media only screen and (max-width: 540px) {
+    font-size: 1.5rem;
+} */
+/* @media only screen and (max-width: 540px) {
     .bg {
         background-image: url(./images/bg4.jpg);
         background-size: cover;
@@ -145,8 +146,8 @@ footer {
     .icons {
         word-spacing: 40px;
     }
-}
-@media only screen and (max-width: 1024px) and (min-width: 541px) {
+} */
+/* @media only screen and (max-width: 1024px) and (min-width: 540px){
     html {
         height: -webkit-fill-available;
       }
@@ -181,4 +182,76 @@ footer {
     footer {
         height: calc(var(--vh, 1vh) * 5);
     }
+} */
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    html {
+        background-color: #fddbd1;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bg {
+        background-image: url(./images/bg4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        min-height: 48%;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #006354;
+    }
+    a {
+        text-decoration: none;
+    }
+    .bg svg {
+        height: 30px;
+    }
+    .welcome {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome svg {
+        height: 15vh;
+    }
+    .contacts {
+        height: 80vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .text-area {
+        font-size: 1.8vh;
+        max-width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+        margin: 0 auto;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+    footer {
+        text-align: center;
+        line-height: 5vh;
+        font-size: 1.2rem;
+    } 
 }
