@@ -83,7 +83,7 @@ footer {
     text-align: center;
     line-height: 5vh;
     font-size: 1.5rem;
-}
+} 
 @media only screen and (max-width: 540px) {
     .bg {
         background-image: url(./images/bg4.jpg);
@@ -146,43 +146,21 @@ footer {
     .icons {
         word-spacing: 40px;
     }
-} 
-/* @media only screen and (max-width: 1024px) and (min-width: 540px){
+}
+@media only screen and (max-width: 1024px) {
+    .bg {
+        height: 78vh;
+    }
+    .contacts {
+        height: 73vh;
+        margin-top: -7vh;
+    }
+    body {
+        height: 173vh;
+    }
     html {
         height: -webkit-fill-available;
       }
-    .text-area {
-        font-size: 2.5vh;
-        padding: 10px;
-        box-sizing: border-box;
-        line-height: 3.5vh;
-    }
-    h1,
-    .icons,
-    .number,
-    .icons {
-        font-size: 4vh;
-    }
-    .icons a,
-    .number a {
-        color: black;
-    }
-    .icons {
-        word-spacing: 40px;
-    }
-    .bg {
-        height: calc(var(--vh, 1vh) * 85);
-    }
-    .welcome {
-        height: calc(var(--vh, 1vh) * 15);
-    }
-    .contacts {
-        height: calc(var(--vh, 1vh) * 80);
-    }
-    footer {
-        height: calc(var(--vh, 1vh) * 5);
-    }
-} */
-
+}
 
 
