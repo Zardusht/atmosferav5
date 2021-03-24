@@ -22,7 +22,7 @@ html {
     background-color: #fddbd1;
     font-family: 'Montserrat', sans-serif;
 }
-/* .bg {
+.bg {
     background-image: url(./images/bg4.jpg);
     background-size: cover;
     background-position: center;
@@ -61,8 +61,8 @@ a {
 footer {
     text-align: center;
     line-height: 5vh;
-} */
-@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 540px) {
     .bg {
         background-image: url(./images/bg4.jpg);
         background-size: cover;
@@ -92,7 +92,7 @@ footer {
         height: calc(var(--vh, 1vh) * 15);
     }
     .contacts {
-        height: 80vh;
+        height: calc(var(--vh, 1vh) * 80);
         
         display: flex;
         flex-direction: column;
@@ -101,7 +101,27 @@ footer {
     }
     footer {
         text-align: center;
-        line-height: 5vh;
-        height: 5vh;
+        line-height: calc(var(--vh, 1vh) * 5);
+        height: calc(var(--vh, 1vh) * 5);
+        font-size: 18px;
+    }
+    .text-area {
+        font-size: 2.5vh;
+        padding: 5px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
     }
 }
