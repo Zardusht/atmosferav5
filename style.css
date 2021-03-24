@@ -27,7 +27,7 @@ html {
     background-size: cover;
     background-position: center;
     height: 85vh;
-    min-height: 48%;
+    /* min-height: 48%; */
 }
 .element {
     display: flex;
