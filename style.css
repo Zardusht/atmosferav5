@@ -160,16 +160,16 @@ footer {
         word-spacing: 40px;
     }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .bg {
-        height: 78vh;
+        height: calc(var(--vh, 1vh) * 85);
     }
     .contacts {
-        height: 80vh;
+        height: calc(var(--vh, 1vh) * 80);
         /* margin-top: -7vh; */
     }
     body {
-        height: 173vh;
+        height: calc(var(--vh, 1vh) * 185);
     }
     html {
         height: -webkit-fill-available;
