@@ -162,14 +162,14 @@ footer {
 }
 @media only screen and (max-width: 1200px) {
     .bg {
-        height: calc(var(--vh, 1vh) * 85);
+        height: 78vh;
     }
     .contacts {
-        height: calc(var(--vh, 1vh) * 80);
+        height: 80vh;
         /* margin-top: -7vh; */
     }
     body {
-        height: calc(var(--vh, 1vh) * 185);
+        height: 173vh;
     }
     html {
         height: -webkit-fill-available;
@@ -178,5 +178,6 @@ footer {
         font-size: 2.5vh;
     }
 }
+
 
 
