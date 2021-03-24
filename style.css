@@ -125,3 +125,27 @@ footer {
         word-spacing: 40px;
     }
 }
+@media only screen and (max-width: 1024px) {
+    html {
+        height: -webkit-fill-available;
+      }
+    .text-area {
+        font-size: 2.5vh;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 3.5vh;
+    }
+    h1,
+    .icons,
+    .number,
+    .icons {
+        font-size: 4vh;
+    }
+    .icons a,
+    .number a {
+        color: black;
+    }
+    .icons {
+        word-spacing: 40px;
+    }
+}
