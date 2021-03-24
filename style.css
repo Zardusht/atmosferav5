@@ -146,7 +146,7 @@ footer {
         word-spacing: 40px;
     }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 541px) {
     html {
         height: -webkit-fill-available;
       }
