@@ -152,8 +152,8 @@ footer {
         height: 78vh;
     }
     .contacts {
-        height: 73vh;
-        margin-top: -7vh;
+        height: 80vh;
+        /* margin-top: -7vh; */
     }
     body {
         height: 173vh;
